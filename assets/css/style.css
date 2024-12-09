@@ -469,6 +469,123 @@ span {
     background: #b3d7ff;
     animation: animation-1 2s linear infinite;
 }
+.header-hero .shape.shape-6 {
+    width: 14px;
+    height: 14px;
+    left: 45%;
+    bottom: 70%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-7 {
+    width: 25px;
+    height: 25px;
+    left: 20%;
+    bottom: 70%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-8 {
+    width: 30px;
+    height: 30px;
+    left: 60%;
+    bottom: 60%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-9 {
+    width: 27px;
+    height: 27px;
+    left: 50%;
+    bottom: 55%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-10 {
+    width: 30px;
+    height: 30px;
+    left: 45%;
+    bottom: 30%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-11 {
+    width: 60px;
+    height: 60px;
+    left: 60%;
+    bottom: 40%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-12 {
+    width: 30px;
+    height: 30px;
+    left: 5%;
+    bottom: 40%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-13 {
+    width: 30px;
+    height: 30px;
+    left: 25%;
+    bottom: 30%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-14 {
+    width: 70px;
+    height: 70px;
+    left: 35%;
+    bottom: 50%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-15 {
+    width: 50px;
+    height: 50px;
+    left: 20%;
+    bottom: 50%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-16 {
+    width: 50px;
+    height: 50px;
+    left: 65%;
+    bottom: 20%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-17 {
+    width: 50px;
+    height: 50px;
+    left: 35%;
+    bottom: 25%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-18 {
+    width: 50px;
+    height: 50px;
+    left: 500px;
+    bottom: 10%;
+    border-radius: 50%;
+    background: #b3d7ff;
+    animation: animation-1 2s linear infinite;
+}
 
 .header-hero-content {
     position: relative;
