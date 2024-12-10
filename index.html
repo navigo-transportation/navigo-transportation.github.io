@@ -40,7 +40,7 @@
     <div class="navbar-area">
       <!---- navbar star--->
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <h4>Navi<span style="color:rgb(255, 0, 0);">GO</span></h4>
@@ -51,9 +51,9 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" data-scroll-nav="0" href="#">Home</a>
+                  <a class="nav-link" data-scroll-nav="0" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" data-scroll-nav="1" href="#about">Filosofi</a>
@@ -65,22 +65,22 @@
                   <a class="nav-link" data-scroll-nav="3" href="#lingkungan">Lingkungan Kerja Fisik</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-scroll-nav="4" href="#keselamatan">Kesehatan Kerja</a>
+                  <a class="nav-link" data-scroll-nav="4" href="#kesehatan">Kesehatan Kerja</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-scroll-nav="5" href="#apd">APD</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-scroll-nav="6" href="#p3k">P3K</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-scroll-nav="7" href="#docsmk">Dokumentasi SMK3</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-scroll-nav="8" href="#manajemenresiko">Manajemen Resiko</a>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" 
+                   aria-expanded="false">
+                  Lainnya
+                </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#keselamatan">Keselamatan Kerja</a></li>
+                    <li><a class="dropdown-item" href="#apd">APD</a></li>
+                    <li><a class="dropdown-item" href="#p3k">P3K</a></li>
+                    <li><a class="dropdown-item" href="#docsmk">Dokumentasi SMK3</a></li>
+                    <li><a class="dropdown-item" href="#manajemenresiko">Manajemen Resiko</a></li>
+                  </ul>
                 </li>
               </ul>
-
             </div>
           </div>
         </nav>
@@ -227,7 +227,7 @@
    <!-- Lingkungan Kerja End -->
 
    <!-- Kesehatan Kerja Start -->
-    <section class="faq-section pt-80" data-scroll-index="4" id="keselamatan">
+    <section class="faq-section pt-80" data-scroll-index="4" id="kesehatan">
       <div class="container">
         <h2 class="wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5">Kesehatan Kerja</h2>
         <ol>
@@ -284,10 +284,16 @@
         </ol>
       </div>
     </section>
-   <!-- Keselamatan Kerja End -->
+   <!-- Kesehatan Kerja End -->
 
+   <!-- Keselamatan Kerja Start -->
+    <section class="faq-section pt-80" data-scroll-index="5" id="keselamatan">
+      <div class="container">
+        <h2 class="mb-25 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">Keselamatan Kerja</h2>
+      </div>
+    </section>
    <!-- APD Start-->
-    <section class="faq-section pt-80" data-scroll-index="5" id="apd">
+    <section class="faq-section pt-80" data-scroll-index="6" id="apd">
       <div class="container">
         <h2 class="wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">Alat Pelindung Diri (APD)</h2>
         <ol>
@@ -349,7 +355,7 @@
     <!-- APD End -->
 
     <!-- P3K Start -->
-     <section class="faq-section pt-80" data-scroll-index="6" id="p3k">
+     <section class="faq-section pt-80" data-scroll-index="7" id="p3k">
       <div class="container">
         <h2 class="wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">P3K</h2>
         <ol>
@@ -465,7 +471,7 @@
     <!-- P3K End -->
 
     <!-- Doc SMK3 Start-->
-     <section class="faq-section pt-80" data-scroll-index="7" id="docsmk">
+     <section class="faq-section pt-80" data-scroll-index="8" id="docsmk">
       <div class="container">
         <h2 class="wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">Dokumentasi SMK3</h2>
         <p class="wow fadeInLeftBig" data-wow-duration="2s" data-wow-delay="1s">Dokumentasi terkait Sistem Manajemen K3 dapat diakses melalui tombol dibawah ini</p>
@@ -477,7 +483,7 @@
     <!-- Doc SMK3 End -->
     
     <!-- Manajemen Resiko Start -->
-    <section class="faq-section pt-80" data-scroll-index="8" id="manajemenresiko">
+    <section class="faq-section pt-80" data-scroll-index="9" id="manajemenresiko">
       <div class="container">
         <h2 class="wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">Manajemen Resiko</h2>
         <p class="wow fadeInLeftBig" data-wow-duration="2s" data-wow-delay="1s">Dokumentasi terkait Manajemen Resiko dapat diakses melalui tombol dibawah ini</p>
