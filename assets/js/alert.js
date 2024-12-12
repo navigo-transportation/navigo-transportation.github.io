@@ -1,11 +1,12 @@
 const navItems = document.querySelectorAll('nav ul li a');
 navItems.forEach(item => {
     item.addEventListener('click', () => {
+        if (item.textContent == 'Lainnya') return;
         alert(`Anda akan beralih ke halaman ${item.textContent}`);
     });
 });
 
-const button = document.querySelectorAll('ul li');
+const button = document.querySelectorAll('section ul li');
 button.forEach(item => {
     item.addEventListener('click', () => {
         alert(`Anda akan membaca dokumen ${item.textContent}`);
