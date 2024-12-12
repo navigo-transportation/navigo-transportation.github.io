@@ -5,15 +5,15 @@ navItems.forEach(item => {
     });
 });
 
-const button = document.querySelectorAll('section ol ul li');
+const button = document.querySelectorAll('ul li');
 button.forEach(item => {
     item.addEventListener('click', () => {
         alert(`Anda akan membaca dokumen ${item.textContent}`);
     });
 });
-const button2 = document.querySelectorAll('section ul li');
-button2.forEach(item => {
-    item.addEventListener('click', () => {
-        alert(`Anda akan membaca dokumen ${item.textContent}`);
-    });
-});
+// const button2 = document.querySelectorAll('section ul li');
+// button2.forEach(item => {
+//     item.addEventListener('click', () => {
+//         alert(`Anda akan membaca dokumen ${item.textContent}`);
+//     });
+// });
